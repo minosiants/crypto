@@ -4,6 +4,7 @@
  * [JDK JavaDoc](https://docs.oracle.com/en/java/javase/15/docs/api/index.html)  
  * [Bouncy Castle Home Page](https://www.bouncycastle.org/java.html)  
  * [Bouncy Castle source code](https://github.com/bcgit/bc-java)  
+ * [RFC 4880 - OpenPGP Message Format](https://tools.ietf.org/html/rfc4880)  
 
 ### [Java Cryptography Tools and Techniques](https://leanpub.com/javacryptotoolsandtech)  
 
@@ -24,7 +25,8 @@
 `ECB` - Electronic Code Book  
 `CBC` - Cipher Block Chaining
 `IV` - Initialization vector
-#### Block and stream ciphers
+
+### Block and stream ciphers
 
 #### Symmetric cipher 
  * Secret key to encrypt data.  
@@ -43,6 +45,23 @@
 - `OFB` Output FeedBack  
 
 #### Stream Ciphers   
+designedto generate only key-streams.  
+Cipher based Input/Output  
+
+### MessageDigest. Mac, HMAC, KDGF
+Ways to verifying that data has not been tampered  
+
+`Message Digests` are used to calculate a cryptographic checksum , or hash
+for a paticular message.  
+`MAC`s add assurance how cryptographic checksoum is calculated    
+`KDF` Key Derivation Functions  
+
+### Authenicated Modes , Key Wrapping, SealdObject
+
+
+
+##TODO
+- `BouncyCastleProvider` - explore this class (why it is used for DigestMessage)
 
 
 
@@ -50,7 +69,9 @@
 
 
 
-
+## resources 
+ [buld you own pgp](https://andrewhalle.github.io/build-your-own/gpg)  
+ 
 
 
 
