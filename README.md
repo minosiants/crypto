@@ -57,6 +57,26 @@ for a paticular message.
 `KDF` Key Derivation Functions  
 
 ### Authenicated Modes , Key Wrapping, SealdObject
+- `AE` Authenticated Encryption  
+- `AEAD` - Authenticated Encryption with Associated Date  
+- `Encrypt-and-MAC`  
+- `MAC-then-Encrypt`  
+- `Enctypt-then-MAC`   
+
+- `GCM` Galois/Counter Mode  
+### Password Based Key Gemeratin and Key splittig
+- `PBKDF` - password based key derivation functions.
+Taking somethimg easy to remember and producing an effective summetric key. `PBE` - Passwoed Based Encryption  
+2013 - 2015 `hashing competition` run on the Internet. `Argon2` the winner  
+-`SCRYPT`  
+
+### Signatures  
+- `Digital signature` (deterministic and not-deterministic)  
+[`Digest Algorithm`](https://en.wikipedia.org/wiki/Cryptographic_hash_function#SHA-3) - SHA-1 SHA-256 SHA3-523  
+[`DSA`](https://en.wikipedia.org/wiki/Digital_Signature_Algorithm) - Digital Signature Algorithm  
+`ECDSA` - DSA ove Elliptic Curve  
+`DDSA` - deterministic DSA  
+`RSA` 
 
 
 
@@ -70,6 +90,7 @@ for a paticular message.
 
 
 ## resources 
+ [OpenPGP message format rfc4880](https://tools.ietf.org/html/rfc4880)  
  [buld you own pgp](https://andrewhalle.github.io/build-your-own/gpg)  
  
 
